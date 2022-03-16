@@ -33,7 +33,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := nad_gemini
+PRODUCT_NAME := SparkOS_gemini
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5
