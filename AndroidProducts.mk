@@ -17,6 +17,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/spark_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_gemini-user \
-    nad_gemini-userdebug \
-    nad_gemini-eng
+    spark_gemini-user \
+    spark_gemini-userdebug \
+    spark_gemini-eng
