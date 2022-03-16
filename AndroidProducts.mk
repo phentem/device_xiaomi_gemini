@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_gemini.mk
+    $(LOCAL_DIR)/spark_device.mk
 
 COMMON_LUNCH_CHOICES := \
     spark_gemini-user \
