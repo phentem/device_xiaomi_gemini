@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_gemini.mk
+    $(LOCAL_DIR)/spark_gemini.mk
 
 COMMON_LUNCH_CHOICES := \
     nad_gemini-user \
