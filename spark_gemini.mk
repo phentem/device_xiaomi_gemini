@@ -19,7 +19,7 @@
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # GApps
 TARGET_USES_BLUR := true
@@ -29,8 +29,14 @@ USE_GAPPS := true
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official AospExtended
-NAD_BUILD_TYPE := UNOFFICIAL
+# Official spark
+SPARK_BOOT := 1080
+SPARK_MAINTAINER := phentem
+SPARK_BOOT_DARK := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := SparkOS_gemini
