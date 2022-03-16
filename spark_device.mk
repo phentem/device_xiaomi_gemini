@@ -30,13 +30,8 @@ USE_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official spark
-SPARK_BOOT := 1080
-SPARK_MAINTAINER := phentem
-SPARK_BOOT_DARK := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+ro.spark.maintainer=phentem
+SPARK_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := SparkOS_gemini
