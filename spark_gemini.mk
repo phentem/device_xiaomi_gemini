@@ -34,7 +34,7 @@ ro.spark.maintainer=phentem
 SPARK_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := SparkOS_gemini
+PRODUCT_NAME := spark_gemini
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5
