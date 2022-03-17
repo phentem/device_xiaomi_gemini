@@ -19,7 +19,7 @@
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
 # Inherit some common AEX stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/xdroid/config/common.mk)
 
 # GApps
 TARGET_USES_BLUR := true
@@ -29,8 +29,10 @@ USE_GAPPS := true
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official AospExtended
-NAD_BUILD_TYPE := UNOFFICIAL
+# Official Xdroid
+XDROID_BUILD_TYPE := UNOFFICIAL
+XDROID_BOOT_DARK := true
+XDROID_UI_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xdroid_gemini
