@@ -18,9 +18,6 @@
 # Inherit from gemini device
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/xdroid/config/common.mk)
-
 # GApps
 TARGET_USES_BLUR := true
 TARGET_GAPPS_ARCH := arm64
@@ -30,7 +27,8 @@ USE_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Official Xdroid
-XDROID_BUILD_TYPE := UNOFFICIAL
+$(call inherit-product, vendor/xdroid/config/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 XDROID_BOOT_DARK := true
 XDROID_UI_BLUR := true
 
